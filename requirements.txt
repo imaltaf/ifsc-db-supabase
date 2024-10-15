@@ -1,5 +1,5 @@
-supabase==0.7.1
-python-telegram-bot==20.3
+supabase==1.2.0
+python-telegram-bot==20.7
 requests==2.31.0
 python-dotenv==1.0.0
-asyncio==3.4.3
+httpx==0.24.1

@@ -7,6 +7,10 @@ from io import StringIO
 from supabase import create_client, Client
 from telegram.ext import Application
 
+# Add these debug print statements
+print("SUPABASE_URL:", os.getenv('SUPABASE_URL'))
+print("SUPABASE_KEY:", os.getenv('SUPABASE_KEY'))
+
 # Initialize Supabase client
 supabase: Client = create_client(os.getenv('SUPABASE_URL'), os.getenv('SUPABASE_KEY'))
 

@@ -1,8 +1,6 @@
 version: '3.8'
 
 services:
-  csv_importer:
+  app:
     build: .
     env_file: .env
-    volumes:
-      - .:/app
